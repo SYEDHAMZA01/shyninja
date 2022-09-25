@@ -76,53 +76,6 @@ i{
     color: white;
 }
 
-@media only screen and (min-width: 992px) {
-    .shy-ninja-header .navbar-nav{
-        width: 100% !important;
-        justify-content: center !important;
-    }
-
-    .shy-ninja-header .offcanvas{
-        position: relative !important;
-        background-color: transparent !important;
-        display: flex !important;
-        width: 100% !important;
-        visibility: inherit !important;
-    }
-
-    .shy-ninja-header .offcanvas-start {
-        width: inherit !important;
-        border-right: none !important;
-        transform: inherit !important;
-    }
-
-    .shy-ninja-header .offcanvas-header{
-        display: none !important;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .shy-ninja-header .nav-item{
-        padding: 0.5em 1em !important;
-    }
-
-    .shy-ninja-header .nav-item:not(:last-child){
-        border-bottom: 1px solid rgba(0,0,0,.2) ;
-    }
-
-    .shy-ninja-header .offcanvas{
-        z-index: 10000 !important;
-        background-image: url("../images/Why-bg.png");
-    }
-
-    .shy-ninja-header .shy-ninja-btn{
-        width: 50%;
-        margin: 0 auto !important;
-    }
-}
-
-
-
 .shy-ninja-header .offcanvas-header .offcanvas-logo img{
     height: 100px;
     width: 100px;
@@ -278,30 +231,6 @@ i{
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   }
   
-  /* .timeline > li > .timeline-panel:before {
-    position: absolute;
-    top: 26px;
-    right: -15px;
-    display: inline-block;
-    border-top: 15px solid transparent;
-    border-left: 15px solid #ccc;
-    border-right: 0 solid #ccc;
-    border-bottom: 15px solid transparent;
-    content: " ";
-  } */
-  
-  /* .timeline > li > .timeline-panel:after {
-    position: absolute;
-    top: 27px;
-    right: -14px;
-    display: inline-block;
-    border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
-    border-bottom: 14px solid transparent;
-    content: " ";
-  } */
-  
   .timeline > li > .timeline-badge {
     width: 50px;
     height: 40px;
@@ -360,16 +289,6 @@ i{
       text-align: right;
   }
 
-@media only screen and (max-width: 500px) {
-    .timeline > li > .timeline-badge {
-        height: 40px;
-    }
-
-    .container{
-        padding: 0 2em !important;
-    }
-}
-
  /* <!-- roadmap Section End --> */
 
  /* footer start */
@@ -404,5 +323,59 @@ i{
 }
 
  /* footer end */
+
+ @media only screen and (min-width: 992px) {
+    .shy-ninja-header .navbar-nav{
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .shy-ninja-header .offcanvas{
+        position: relative !important;
+        background-color: transparent !important;
+        display: flex !important;
+        width: 100% !important;
+        visibility: inherit !important;
+    }
+
+    .shy-ninja-header .offcanvas-start {
+        width: inherit !important;
+        border-right: none !important;
+        transform: inherit !important;
+    }
+
+    .shy-ninja-header .offcanvas-header{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .shy-ninja-header .nav-item{
+        padding: 0.5em 1em !important;
+    }
+
+    .shy-ninja-header .nav-item:not(:last-child){
+        border-bottom: 1px solid rgba(0,0,0,.2) ;
+    }
+
+    .shy-ninja-header .offcanvas{
+        z-index: 10000 !important;
+        background-image: url("../images/Why-bg.png");
+    }
+}  
+
+@media only screen and (max-width: 500px) {
+    .timeline > li > .timeline-badge {
+        height: 40px;
+    }
+
+    .container{
+        padding: 0 2em !important;
+    }
+
+    .f3 {
+        font-size: 2.5rem !important;
+    }
+}
 
  
